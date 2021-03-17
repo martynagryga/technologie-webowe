@@ -1,38 +1,47 @@
-p {
-    background-color: darkgrey;
-    font-size: 20px;
-
+body {
+    background-color: lightgrey;
 }
 div {
-    font-size: 16px;
     margin: 0px;
-    padding: 10px;
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
-    width: 100px;
-    height: 100px;
+    padding: 0px;
     position: absolute;
 }
 
-#a1 {
-    background-color: lavenderblush;
-    left: 0px;
+#b1 {
+    background-color: lightsalmon;
     top: 0px;
-}
-#a2 {
-    background-color: lightblue;
-    right: 0px;
-    top: 0px;
+    left: 1000px;
+    width: 700px;
+    height: 100px;
 
 }
-#a3 {
-    background-color: lightcoral;
-    right: 0px;
-    bottom: 0px;
+#b2 {
+    background-color: lightskyblue;
+    top: 100px;
+    left: 1000px;
+    height: 500px;
+    width: 150px
+    ;
 }
-#a4 {
+#b3 {
     background-color: lightgreen;
-    left: 0px;
-    bottom: 0px;
+    top: 100px;
+    left: 1550px;
+    height: 500px;
+    width: 150px;
 }
-
+#b4 {
+    background-color: lightslategray;
+    top: 100px;
+    left: 1150px;
+    height: 500px;
+    width: 400px;
+    
+}
+#b5 {
+    background-color:  darkgrey;
+    top: 600px;
+    left: 1000px;
+    height: 100px;
+    width: 700px;
+}
