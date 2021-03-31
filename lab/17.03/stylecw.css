@@ -64,10 +64,54 @@ body {
 #circle3:hover {
     opacity: 0.85;
 }
+#tekst1 {
+    text-align: center;
+    margin-top: 45%;
+    font-family: fantasy;
+    color: white;
+    font-size: 20px;
+}
+#tekst2 {
+    text-align: center;
+    margin-top: 45%;
+    font-family: fantasy;
+    color: white;
+    font-size: 20px;
+}
+#tekst3 {
+    text-align: center;
+    margin-top: 45%;
+    font-family: fantasy;
+    color: white;
+    font-size: 20px;
+}
+#fotter_menu{
+    padding-top: 20px;
+    display: flex;
+    font-style: inherit;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    list-style-type: none;
+}
+ul{
+    list-style-type: none;
+}
+#pod{
+    border-bottom: 1px solid#aaa;
+}
 #footer {
     background-color: #232d2f;
     background-image: url(zabek.jpg);
     background-repeat: repeat-x;
     margin-top: 40px;
     height: 200px;
+}
+#footer_text{
+    margin: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
 }
