@@ -1,4 +1,4 @@
-body {
+#body {
     background-color: #ccc;
     display: flex;
     justify-content: center;
@@ -6,7 +6,7 @@ body {
     min-height: 100vh;
     margin: 0;
 }
-section {
+#section {
     width: 1200px;
     height: 900px;
     background-color: #fff;
@@ -14,4 +14,8 @@ section {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+}
+#logo {
+    position: center;
+   
 }
