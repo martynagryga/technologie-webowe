@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+}
+#header {
+    background-color: #252a3a;
+    font-size: 16px;
+}
+#navigation {
+    padding: 20px;
+    width: 150px;
+    height: 100%;
+    color: rgb(0, 140, 255);
+}
+#innavigation {
+    display: flex;
+    flex-direction: column;
+    float: none;
+    width: 100%;
+    color: white;
+}
+#labels {
+    color: rgb(0, 162, 255);
+}
+#inlabels {
+    display: flex;
+    flex-direction: column;
+    float: none;
+    width: 100%;
+    color: white;
+}
