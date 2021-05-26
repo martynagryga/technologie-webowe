@@ -1,10 +1,11 @@
 body
 {
-	background-color: #1c2933;
+	background-color: #f3f3f3;
 	color: #2F4F2F;
 	font-size: large;
 	height: 1400px;
-	font-family:Impact;
+	font-family:Arial;
+	font-style: oblique;
 
 }
 header
@@ -21,7 +22,7 @@ header
 #button1
 {
 	margin-right: 0px; 
-	background: linear-gradient(to bottom,  #396e62 10%, #205353 );
+	background: linear-gradient(to bottom,  #4a949d 10%, #3b6c73 );
     float: left;
 	width: 345px;
 	padding: 10px;
@@ -33,7 +34,7 @@ header
 }
 #button2
 {
-	background: linear-gradient(to bottom,  #396e62 10%, #205353 );
+	background: linear-gradient(to bottom,  #4a949d 10%, #3b6c73 );
     float: left;
 	width: 345px;
 	padding: 10px;
@@ -47,7 +48,7 @@ header
 #box2
 {
 color:#205353;
-background: linear-gradient(to bottom,#aacc91 0%,#659776  );
+background: linear-gradient(to bottom,#f3f3f3 0%,#cdcde0  );
 float: left;
 height: 600px;
 width: 300px; 
@@ -58,7 +59,7 @@ padding-left: 10px;
 #box3
 {
 	float: left;
-	background: linear-gradient(to bottom,#aacc91 0%,#659776  );
+	background: linear-gradient(to bottom,#f3f3f3 0%,#cdcde0  );
 	width: 1080px;
 	height: 600px;
 	margin-left: 20px; 
@@ -78,23 +79,23 @@ transform: scale(1,1)
 }
 a:link
 {
-color: #aacc91;
+color: #f3f3f3;
 text-decoration: none;
 }
 a:visited
 {  
-color: #aacc91;
+color: #f3f3f3;
 text-decoration: none;
 }
 a:hover
 {
-color: #aacc91;
+color: #f3f3f3;
 text-decoration: none;
 transform: scale(1.05,1.07)
 }
 a:active
 {
-color: #aacc91;
+color: #f3f3f3;
 text-decoration: none;
 }
 
@@ -119,7 +120,7 @@ text-decoration: none;
 main 
 {
     background: linear-gradient(to bottom,#205353 0%,  #18434c);
-	color: #2F4F2F;
+	color: #f3f3f3;
 	width: 1400px;
 	height: 640px;
     margin-right:auto;
@@ -133,8 +134,8 @@ main
 }
 #box
 {
-	background: linear-gradient(to bottom,#aacc91 0%,#659776  );
-	color: #2F4F2F;
+	background: linear-gradient(to bottom,#f3f3f3 0%,#f3f3f3  );
+	color: #f3f3f3;
 	width: 1400px;
 	height: 600px;
     margin-right:auto;
@@ -142,7 +143,7 @@ main
 }
 footer
 {
-	background: linear-gradient(to bottom,  #396e62 10%, #205353 );
+	background: linear-gradient(to bottom,  #4a949d 10%, #3b6c73 );
 	width: 1480px;
     height: 20px;
     margin-right:auto;
