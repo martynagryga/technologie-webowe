@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+<meta harset="utf-8" />
+<title>Projekt</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+<link rel="shortcut icon" href="ikona.png" type="image/x-icon">  
+</head>
+
+	<body>
+
+        <header><img class="zdj1" src="tło.png"></header>
+      
+          <div id="buttons">
+          <div id="button1"><a href="glowna.html"> GŁÓWNA </a></div>
+          <div id="button2"><a href="onas.html"> O NAS </a></div>
+          <div id="button2"><a href="oferta.html"> OFERTA </a></div>
+          <div id="button2"><a href="zamowienia.html"> ZAMÓWIENIA </a></div>
+          <div id="button2"><a href="ptaszniki.html"> PTASZNIKI </a></div>
+          <div style="clear:both;"></div>
+</div>
+ 
+ <main>
+     <div id="box">
+      <center><h2>Formularz zamówienia </h2>
+   
+       <form ><table>
+        <tr>
+          <td colspan="2" ><b>Dane zamawiającego </b></td>
+          </tr>
+        <tr><td>Imię:</td><td><input type="text" id="imie" ></td>
+        </tr><tr>
+        <td>Nazwisko:</td><td><input type="text" id="nazwisko"></td>
+        </tr><tr>
+        <td>Mail:</td><td><input type="text" id="email"></td>
+      </tr>
+      <tr><td>  </td><td>  </td></tr>
+      <tr>
+          <td colspan="2" ><b>Adres zamówienia</b></td>
+          </tr>
+        </tr> <tr>
+          <td>Ulica:</td><td><input type="text" id="ulica"></td>
+          </tr>
+          <tr><td>Numer budynku / mieszkania:</td><td><input type="text" name="nr2" size="4" maxlength="4" > / <input type="text" name="nr2" size="4" maxlength="4"></td></tr>
+           <tr>
+            <td>Miejscowość: </td><td><input type="text" id="miejscowosc"></td>
+            </tr>
+        <tr><td>Kod pocztowy:</td><td><input type="text" name="kod" size="2" maxlength="2" >-<input type="text" name="kod" size="3" maxlength="3"></td></tr>
+        <tr><td>  </td><td>  </td></tr>
+        <tr>
+          <td colspan="2" ><b>Zamówienie:</b></td>
+          </tr>
+          <tr>
+            <td>Gatunek:</td>
+              <td><select name="gatunek">
+                  <option value="Psalmopoeus cambridgei">Psalmopoeus cambridgei</option>
+                  <option value="Tliltocatl albopilosum ">Tliltocatl albopilosum </option>
+                  <option value="Dolichothele diamantinensis">Dolichothele diamantinensis</option>
+                  <option value="Poecilotheria regalis">Poecilotheria regalis</option>
+                  <option value="Poecilotheria rufilata">Poecilotheria rufilata</option>
+                  <option value="Poecilotheria sp lowland">Poecilotheria sp lowland</option>
+                  <option value="Encyocratella olivacea">Encyocratella olivacea</option>
+                  <option value="Avicularia juruensis">Avicularia juruensis</option>
+                  <option value="Chromatopelma cyaneopubescens">Chromatopelma cyaneopubescens</option>
+                  <option value="Brachypelma emilia">Brachypelma emilia</option>
+              </select></td></tr>
+
+         <tr>
+          <td>Ilość sztuk:</td>
+            <td><select size="1" name="ilosc">
+                <option selected value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select></td></tr>
+        
+  
+         <tr><td>Płeć pająka:</td> <td><input type="radio" name="plec" value="samiec">samiec <input type="radio" name="plec" value="samica">samica</td></tr> 
+       
+         <tr>
+        <td></td>
+        <td><input type="checkbox" checked>Akceptuje regulamin</input></td></tr>
+        <tr><br><td colspan="2"><br> <!--laczenie pól tabeli w poperzek,chodzi o reseta i przeslij -->
+        <input type="reset" value="Resetuj" >
+        <input type="button" value="Prześlij"></td></tr>
+        </table></form></center>
+
+     </div>
+ </main>
+
+
+  
+  </body>
+  </html>
