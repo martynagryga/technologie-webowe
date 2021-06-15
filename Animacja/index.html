@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animacja</title>
+    <link rel="stylesheet" href="style.css">
+    <script
+      src="https://kit.fontawesome.com/c39d17edb5.js"
+      crossorigin="anonymous">
+    </script>
+</head>
+<body>
+    <div class="cards">
+        <div class="card-happy" id="card-happy">
+            <div class="title">
+                <h2>Happy Sushi Lunch</h2>
+            </div>
+            <ul>
+                <li>California Roll</li>
+                <li>2 Pieces Salmon Nigiri</li>
+                <li>Sea Salt Edamame</li>
+                <li>Miso Soup</li>
+              </ul>
+              <div class="price">$12</div>
+        </div>
+        <div class="card-lovers" id="card-lovers">
+            <div class="title">
+                <h2>Sushi Lover's Lunch</h2>
+            </div>
+            <ul>
+                <li>Spicy Tuna Roll</li>
+                <li>Shrimp Tempura Roll</li>
+                <li>4 Pieces Assorted Nigiri</li>   
+                <li>Wonton Soup</li>
+            </ul>
+            <div class="price">$18</div>
+        </div>
+    </div>
+    <div class="buttons">
+    <button id="lovers-btn" onclick="removeClass()">
+        <p><i class="fas fa-arrow-circle-right"></i>
+        Switch to Sushi Lover's Lunch!</p>
+    </button>
+    <button class="happy-btn" id="happy-btn" onclick="addClass()">
+        <p><i class="fas fa-arrow-circle-left"></i>
+        Switch to Happy Sushi Lunch!</p>
+    </button>
+    </div>
+    <script type="text/javascript">
+    var v = document.getElementById("card-happy")
+    var x = document.getElementById("card-lovers")
+    var c = document.getElementById("happy-btn")
+    function addClass(){
+        v.classList.remove("activesecond")
+        x.classList.remove("activesecond")
+        v.classList.add("active")
+        c.classList.add("active")
+        x.classList.add("active")
+    }
+    function removeClass(){
+        v.classList.remove("active")
+        c.classList.remove("active")
+        x.classList.remove("active")
+        v.classList.add("activesecond")
+        x.classList.add("activesecond")
+    }
+    </script>
+</body>
+</html>

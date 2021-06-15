@@ -1,0 +1,126 @@
+body{
+    background-color: #5b6775;
+    height: 90vh;
+    width: 90vw;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    border: #333333;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.card-happy{
+    background-color: #f6f7f8;
+    transform:translate(15%);
+    height: 210px;
+    width: 220px;
+    margin-right: 20px;
+    margin-top: 100px;
+    text-align: center;
+    box-shadow: 10px 5px 5px #333333;
+}
+.card-lovers{
+    background-color: #f6f7f8;
+    transform: scale(1.2) translate(-15%);
+    height: 210px;
+    width: 220px;
+    margin-right: 20px;
+    margin-top: 100px;
+    text-align: center;
+    box-shadow: 10px 5px 5px #333333;
+}
+
+.price{
+    display: flex;
+    background-color: #c1d5d4;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    color: #5b6775;
+    font-weight: 600;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    display: flex;
+    position:fixed;
+    top: 480px;
+    align-items: center;
+    justify-content: center;
+    background-color: #ad7076;
+    color: white;
+    height: 40px;
+    width: 240px;
+    border-radius: 50px;
+    border:white solid 1px
+}
+.card-happy.active{
+    animation: movehappy 1s linear forwards;
+    transition: all 1s;
+}
+.card-lovers.active{
+    animation: movelovers 1s linear forwards;
+    transition: all 1s;
+}
+.card-happy.activesecond{
+    animation: movehappysecond 1s linear forwards;
+    transition: all 1s;
+}
+.card-lovers.activesecond{
+    animation: moveloverssecond 1s linear forwards;
+    transition: all 1s;
+}
+@keyframes movehappy {
+    0%   {transform: scale(1.0) translate(15%);}
+    25%  {transform: scale(1.0) translate(0%);}
+    50% {transform: scale(1.1) translate(-15%); z-index: 20;}
+    75% {transform: scale(1.2) translate(0%); z-index: 40;}
+    100% {transform: scale(1.2)translate(15%); z-index: 50;}
+}
+@keyframes movelovers {
+    0%   {transform:scale(1.2) translate(-15%);}
+    25%  {transform:scale(1.1) translate(0%);}
+    50%  {transform:scale(1.0) translate(15%) ;}
+    75%  {transform:scale(1.0)  translate(0%) ;}
+    100% {transform:scale(1.0) translate(-15%) ;}
+}
+@keyframes movehappysecond {
+    0%   {transform: scale(1.2) translate(15%); z-index: 50;}
+    25%  {transform: scale(1.2) translate(0%); z-index: 40;}
+    50% {transform: scale(1.1) translate(-15%); z-index: 20;}
+    75% {transform: scale(1.0) translate(0%);}
+    100% {transform: scale(1.0) translate(15%);}
+}
+@keyframes moveloverssecond {
+    0%   {transform:scale(1.0) translate(-15%);}
+    25%  {transform:scale(1.0) translate(0%);}
+    50%  {transform:scale(1.0) translate(15%) ;}
+    75%  {transform:scale(1.1)  translate(0%) ;}
+    100% {transform:scale(1.2) translate(-15%) ;}
+}
+.happy-btn.active{
+    display: none;
+}
+h2{
+    border-bottom: #e9e9e9f5 solid 1px;
+    color: #5b6775;
+}
+ul{
+    list-style-type: square;
+    text-align: left;
+    color: #5b6775;
+}
+i{
+    color: white;
+}
