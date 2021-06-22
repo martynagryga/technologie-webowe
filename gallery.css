@@ -1,0 +1,32 @@
+.gallery__one,
+.gallery__two{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery__zdj_z_lewej,
+.gallery__zdj_z_prawej{
+    width: 50%;
+}
+
+.gallery__zdj_z_lewej{
+    padding-right: 1rem;
+}
+
+.gallery__zdj_z_prawej{
+    padding-left: 1rem;
+}
+
+@media screen and (max-width: 992px){
+    /* Gallery */
+    .gallery__one{
+        flex-direction: column;
+    }
+
+    .gallery__zdj_z_lewej,
+    .gallery__zdj_z_prawej{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
