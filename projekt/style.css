@@ -1,0 +1,115 @@
+
+body
+{
+	background: linear-gradient(to bottom, #cdcde0  8%, #f3f3f3  );
+	color: #2F4F2F;
+	font-family:Arial;
+	font-style: oblique;
+	margin: 0;
+	max-width: none;
+	height: 100vh;
+}
+header
+{
+	background: linear-gradient(to bottom, #cdcde0  8%, #f3f3f3  );
+	text-align: center;
+	width: 100%;
+}
+
+#buttons
+{
+	background-color: #f3f3f3;
+	padding-left: 2%;
+	color: black;
+}
+main 
+{
+    background: linear-gradient(to bottom,#f3f3f3 0%,#cdcde0  );
+	height: 100vh;
+}
+#box
+{
+	background: linear-gradient(to bottom,#f3f3f3 0%,#cdcde0  );
+	width: 100%;
+	height: 100vh;
+	padding-left: 8%;
+	padding-right: 8%;
+	padding-top: 2%;
+	text-align: center;
+}
+
+#box2
+{
+	color:#205353;
+	background: linear-gradient(to bottom,#f3f3f3 0%,#cdcde0  );
+	width: 30%;
+	float: left;
+	height: 100vh;
+	padding-left: 8%;
+	padding-top:2%;
+}
+#box3
+{
+	background: linear-gradient(to bottom,#f3f3f3 0%,#cdcde0  );
+	height: 100vh;
+	padding-top: 2%;
+	padding-right: 2%;
+}
+#box5
+{
+	background: linear-gradient(to bottom,#f3f3f3 0%,#cdcde0  );
+	float: left;
+	width: 60%;
+	padding-left: 6%;
+	padding-top: 10px;
+	height: 100vh;
+}
+#box6
+{
+	background: linear-gradient(to bottom,#f3f3f3 0%,#cdcde0  );
+	padding-top: 10px;
+	height: 100vh;
+
+}
+#box8
+{
+	background: linear-gradient(to bottom,#f3f3f3 0%,#cdcde0  );
+	float: left;
+	width: 55%;
+	height: 100vh;
+}
+
+a:link /* nie odwoedzone */
+{
+color: black;
+text-decoration: none;
+}
+a:visited /*odwiedzony */
+{  
+color: black;
+text-decoration: none;
+}
+a:hover /* aktywny odsyłacz np. wciśnie i przytrzyma - po najechaniu */
+{
+color: black;
+text-decoration: none;
+}
+a:active /*aktywny przy klikaniu*/ 
+{
+color: black;
+text-decoration: none;
+}
+.zdj2
+{
+	box-shadow: 0.5em 0.5em 1em black;
+	width: 20%;
+	height: 20%;
+}
+.zdj3
+{
+	box-shadow: 0.5em 0.5em 1em black;
+}
+.zdj1
+{
+	width: 70%;
+}
